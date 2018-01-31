@@ -19,4 +19,5 @@ s.source           = { :git => "https://github.com/liuyaqiang/yf_AdxmiMergeSDK.g
 s.vendored_frameworks = 'Adxmi/AdxmiMergeSDK.framework'
 #s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 s.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'CoreMedia', 'CoreLocation'
+s.libraries = 'z','sqlite3' 
 end
